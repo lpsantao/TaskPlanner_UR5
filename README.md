@@ -14,7 +14,7 @@ Allows to define a goal task (Block stacking, Boxing Balls, or Hanoi Tower) and 
 ## Dependencies
 * [Python 3.7](https://www.python.org/downloads/release/python-37/)
 * Tkinter (for the graphical interface)
-* [Plotly] (https://github.com/plotly/plotly.py) for the Gantt Chart plot
+* [Plotly](https://github.com/plotly/plotly.py) for the Gantt Chart plot
 * IDE [PyCharm - Community Edition](https://www.jetbrains.com/pycharm/download/)
 * [URSim 3.12.1](https://www.universal-robots.com/download/?option=18940)
 
