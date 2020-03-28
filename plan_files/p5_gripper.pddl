@@ -1,0 +1,18 @@
+(define (problem gripper-x-2)
+   (:domain gripper-typed)
+   (:objects boxa boxb - box
+             E D C B A - ball
+			 left right - gripper)
+   (:init (at-robby boxa)
+          (free left)
+          (free right)
+		  (at E boxa)
+          (at D boxa)
+          (at C boxa)
+          (at B boxa)
+          (at A boxa))
+   (:goal (and (at D boxb)
+			   (at E boxa)
+               (at C boxb)
+               (at B boxb)
+               (at A boxb))))
